@@ -37,9 +37,8 @@
   <action id="OptimizeImports" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
-  <action id="ReplaceInPath" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -73,4 +72,3 @@
   </action>
   <action id="ViewSource" />
 </keymap>
-
