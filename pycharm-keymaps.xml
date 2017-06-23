@@ -12,7 +12,10 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
-  <action id="AutoIndentLines" />
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -29,10 +32,15 @@
     <keyboard-shortcut first-keystroke="shift alt e" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="ForceStepInto">
-    <keyboard-shortcut first-keystroke="shift alt f7" />
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
+  <action id="GotoSuperMethod" />
+  <action id="ImplementMethods" />
   <action id="IpnbRunCellInplaceAction" />
   <action id="OptimizeImports" />
   <action id="RenameElement">
@@ -47,8 +55,10 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="ctrl alt o" />
   </action>
   <action id="Stop">
