@@ -3,17 +3,24 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="ActivateStructureToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="ChangesView.UnshelveSilently" />
   <action id="CloseActiveTab" />
@@ -38,6 +45,9 @@
   </action>
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="ImplementMethods" />
