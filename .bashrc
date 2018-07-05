@@ -10,4 +10,5 @@ alias ll='ls -alFh'
 alias rs='rsync --archive --verbose --progress --human-readable --whole-file'
 alias rsd='rsync --archive --verbose --progress --human-readable --whole-file --delete'
 
-alias du1='du -h . -d 1'
+alias du1='du -sh *'
+alias du.='du -h . -d 1'
