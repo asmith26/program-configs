@@ -12,3 +12,5 @@ alias rsd='rsync --archive --verbose --progress --human-readable --whole-file --
 
 alias du1='du -sh *'
 alias du.='du -h . -d 1'
+
+alias x='xdg-open .'
