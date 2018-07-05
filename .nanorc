@@ -1,0 +1,7 @@
+set const
+set tabsize 4
+set tabstospaces
+set nowrap
+set wordbounds
+set softwrap
+set smooth
