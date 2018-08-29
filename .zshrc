@@ -34,7 +34,7 @@ setopt appendhistory
 unsetopt autocd
 
 # === STYLES and PROMPT ===
-source /home/andyandy/git/utils/zsh-git-prompt/zshrc.sh
+source ~/git/utils/zsh-git-prompt/zshrc.sh
 # an example prompt
 PROMPT='%B%* %~%b $(git_super_status) '
 
