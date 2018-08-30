@@ -65,3 +65,5 @@ alias da='docker ps -a'
 alias di='docker images'
 alias dr='docker rm'
 alias dri='docker rmi'
+
+alias c='conda'
