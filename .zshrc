@@ -67,3 +67,5 @@ alias dr='docker rm'
 alias dri='docker rmi'
 
 alias c='conda'
+
+alias ps='python -m SimpleHTTPServer 8000'
