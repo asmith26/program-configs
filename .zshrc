@@ -67,5 +67,8 @@ alias dr='docker rm'
 alias dri='docker rmi'
 
 alias c='conda'
+alias nj='nohup jupyter notebook &'
+
+alias gs='git status'
 
 alias pys='python -m SimpleHTTPServer 8000'
