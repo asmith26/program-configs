@@ -1,8 +1,9 @@
--<!-- Copy to ~/.PyCharm*/config/keymaps/my-keymaps.xml -->
+<!-- Copy to ~/.PyCharm*/config/keymaps/my-keymaps.xml -->
 <keymap version="1" name="my-keymap" parent="Default for XWin">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
   </action>
@@ -17,9 +18,7 @@
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="AutoIndentLines" />
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl alt b" />
-  </action>
+  <action id="Back" />
   <action id="ChangesView.UnshelveSilently" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
@@ -27,15 +26,24 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="Console.Execute.Multiline" />
-  <action id="DebugClass">
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="shift alt e" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
@@ -47,21 +55,33 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
   </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="GotoSuperMethod" />
   <action id="ImplementMethods" />
   <action id="IpnbRunCellInplaceAction" />
+  <action id="Jdbc.RunSqlScript">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+  </action>
   <action id="OptimizeImports" />
+  <action id="PyExecuteCellAction" />
+  <action id="QuickActionPopup" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
-  <action id="RenameElement">
+  <action id="RemoteHostView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="RunDashboard.Debug" />
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
   </action>
   <action id="SaveAll" />
   <action id="ShowIntentionActions">
@@ -92,6 +112,11 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="ViewSource" />
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt c" />
