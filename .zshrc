@@ -71,7 +71,8 @@ alias nj='nohup jupyter notebook &'
 
 alias gs='git status'
 
-alias pys='python -m SimpleHTTPServer 8000'
+alias py2s='python -m SimpleHTTPServer 8000'
+alias pys='python -m http.server'
 
 alias sai='sudo apt-get install'
 alias saa='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade && sudo apt-get autoclean && sudo apt-get autoremove -y'
