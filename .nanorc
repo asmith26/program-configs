@@ -1,4 +1,4 @@
-set const
+set linenumbers
 set tabsize 4
 set tabstospaces
 set nowrap
