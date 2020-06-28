@@ -22,11 +22,15 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 ## === ZSH CONFIG ===
 # see http://www.bash2zsh.com/zsh_refcard/refcard.pdf
 ## === HISTORY ===
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=100000000000000000
 SAVEHIST=100000000000000000
-# Don't overwrite, append
+# append to the history file, don't overwrite it
 setopt appendhistory
 
 # === OPTIONS === 
@@ -34,7 +38,7 @@ setopt appendhistory
 unsetopt autocd
 
 # === STYLES and PROMPT ===
-source ~/git/utils/zsh-git-prompt/zshrc.sh
+source ~/git/Utils/zsh-git-prompt/zshrc.sh
 # an example prompt
 PROMPT='%B%* %~%b $(git_super_status) '
 
@@ -76,3 +80,6 @@ alias pys='python -m http.server'
 
 alias sai='sudo apt-get install'
 alias saa='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade && sudo apt-get autoclean && sudo apt-get autoremove -y'
+
+
+. ~/.zsh_extra

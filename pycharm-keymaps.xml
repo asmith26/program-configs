@@ -1,4 +1,3 @@
-<!-- Copy to ~/.PyCharm*/config/keymaps/my-keymaps.xml -->
 <keymap version="1" name="my-keymap" parent="Default for XWin">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
