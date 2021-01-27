@@ -74,6 +74,7 @@ alias c='conda'
 alias nj='nohup jupyter notebook &'
 
 alias gs='git status'
+alias gp='git pull'
 
 alias py2s='python -m SimpleHTTPServer 8000'
 alias pys='python -m http.server'
